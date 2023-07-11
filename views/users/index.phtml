@@ -1,0 +1,13 @@
+
+<h1>Liste des utilisateurs</h1>
+<?php
+    foreach($data as $user)
+    {
+?>
+    <ul>
+        <li><?= $user['username']; ?></li>
+        <li><?= $user['email']; ?></li>
+    </ul>
+<?php
+    }
+?>

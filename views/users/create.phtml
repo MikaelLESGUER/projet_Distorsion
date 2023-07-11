@@ -1,0 +1,25 @@
+<h1>Création d'un nouvel utilisateur</h1>
+<form method="POST" action="index.php?route=user-create">
+    <fieldset>
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" name="username" id="username">
+    </fieldset>
+    
+    <fieldset>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+    </fieldset>
+    
+    <fieldset>
+        <label for="password">Mot de passe</label>
+        <input type="password" name="password" id="password">
+    </fieldset>
+    
+    <fieldset>
+        <label for="confirmPassword">Confirmer le mot de passe</label>
+        <input type="password" name="confirmPassword" id="confirmPassword">
+    </fieldset>
+    
+    <!--<input type="hidden" name="formName" id="formName">-->
+    <input type="submit" id="submitCreate" name="submitCreate" value="confirmer">
+</form>
